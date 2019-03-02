@@ -4,11 +4,18 @@
 	<test name="Test">
 		<parameter name="url"
 			value="http://96.84.175.78/MMP-Release2-Integrated-Build.6.8.000/portal/login.php"></parameter>
+			<parameter name="adminUrl"
+			value="http://96.84.175.78/MMP-Release2-Admin-Build.2.1.000/index.php"></parameter>
 		<parameter name="username" value="ria1"></parameter>
 		<parameter name="password" value="Ria12345"></parameter>
 
+		<parameter name="adminUsername" value="Kevin_001"></parameter>
+		<parameter name="adminPassword" value="Kevin_002"></parameter>
+		
 		<classes>
 			<class name="org.iit.mmp.mmp_iit.US_003_NavigationLinks" />
+			<class name="org.iit.mmp.mmp_iit.US_008_PatientFeeTest" />
 		</classes>
+		
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
