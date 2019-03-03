@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="5" name="Failed suite [Suite]">
+  <parameter name="adminUsername" value="Kevin_001"/>
+  <parameter name="password" value="Ria12345"/>
+  <parameter name="adminUrl" value="http://96.84.175.78/MMP-Release2-Admin-Build.2.1.000/index.php"/>
+  <parameter name="url" value="http://96.84.175.78/MMP-Release2-Integrated-Build.6.8.000/portal/login.php"/>
+  <parameter name="username" value="ria1"/>
+  <parameter name="adminPassword" value="Kevin_002"/>
+  <test name="Test(failed)">
+    <parameter name="adminUsername" value="Kevin_001"/>
+    <parameter name="password" value="Ria12345"/>
+    <parameter name="adminUrl" value="http://96.84.175.78/MMP-Release2-Admin-Build.2.1.000/index.php"/>
+    <parameter name="url" value="http://96.84.175.78/MMP-Release2-Integrated-Build.6.8.000/portal/login.php"/>
+    <parameter name="username" value="ria1"/>
+    <parameter name="adminPassword" value="Kevin_002"/>
+    <classes>
+      <class name="org.iit.mmp.mmp_iit.US_008_PatientFeeTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="adminFeeTest" invocation-numbers="0"/>
+          <include name="invokeBrowser"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- org.iit.mmp.mmp_iit.US_008_PatientFeeTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

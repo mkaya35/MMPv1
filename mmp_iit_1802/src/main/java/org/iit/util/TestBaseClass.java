@@ -25,12 +25,6 @@ public class TestBaseClass {
 		driver.manage().deleteAllCookies();
 	}
 	
-	@AfterClass
-	public static void quitDriver() throws InterruptedException
-	{
-		Thread.sleep(5000);
-		driver.quit();
-	}
 	
 
 }
