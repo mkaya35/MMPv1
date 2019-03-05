@@ -7,7 +7,7 @@
 			<parameter name="adminUrl"
 			value="http://96.84.175.78/MMP-Release2-Admin-Build.2.1.000/index.php"></parameter>
 		<parameter name="username" value="ria1"></parameter>
-		<parameter name="password" value="Ria12345"></parameter>
+		<parameter name="password" value="Ria12345AAAAAA"></parameter>
 
 		<parameter name="adminUsername" value="Kevin_001"></parameter>
 		<parameter name="adminPassword" value="Kevin_002"></parameter>
